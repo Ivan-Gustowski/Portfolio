@@ -249,8 +249,12 @@ hr {
 
 /* PROYECTS */
 
-.main-proyects {
+.row-proyects {
     background-color: #555555;
+}
+
+.row-proyectss {
+    background-color: #F5F5F5;
 }
 
 .div-proyects {
@@ -295,6 +299,57 @@ hr {
     font-weight: bold;
 }
 
+.div-proyectss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.div-proyectss figure {
+    display: flex;
+    justify-content: center;
+}
+
+.div-proyectss figure img {
+    width: 65%;
+}
+
+.div-proyectss h1 {
+    color: #555555;
+    padding-bottom: 60px;
+    font-size: 48px;
+}
+
+.div-proyectss p {
+    color: #555555;
+    width: 80%;
+    font-weight: 400;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 80px;
+}
+
+.div-proyectt h3 a {
+    color: #555555;
+    text-decoration: none;
+}
+
+.div-proyectt h3 a:hover {
+    color: #555555;
+    font-weight: bold;
+}
+
+.div-proyects figure .bicilogo {
+    height: 380px;
+    width: 580px;
+}
+
+.div-proyects figure .remeralogo {
+    height: 380px;
+    width: 380px;
+}
 
 /* SOBRE MI */
 
@@ -460,6 +515,10 @@ hr {
 
     .h1-phrase {
         margin: 100px 0 100px 0;
+    }
+
+    .tasks p {
+        width: 90%;
     }
 
     .img-info {
